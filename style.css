@@ -1,0 +1,198 @@
+body {
+  padding: 10%;
+  padding-top: 3%;
+}
+p {
+font-family: "Calisto MT","Bookman Old Style",Bookman,"Goudy Old Style",Garamond,"Hoefler Text","Bitstream Charter",Georgia,serif;
+color: #333333;
+font-size: 120%;
+}
+.toplogo {
+  float:left;
+  padding-right: 0.24%;
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+.cursive {
+  font-family: Yellowtail;
+  font-size: 42px;
+  font-style: bold;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15px;
+  padding-left: 0%;
+  padding-top: 10px;
+  padding-right: 25px;
+  margin-bottom: 10px;
+
+}
+.tagline {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 10px;
+  margin-top: 0px;
+  margin-left: 50px;
+  color: #333333;
+}
+.horizontallist {
+  float:right;
+
+}
+.horizontallist li {
+  display: inline;
+  float:right;
+  padding: 1px;
+}
+.horizontallist li:nth-child(2)
+{
+  padding-left: px;
+}
+header {
+  padding-bottom: 2%;
+  border-style: solid;
+  border-width: 0px 0px 13px 0px;
+  -moz-border-image: url(http://i.imgur.com/pnoMOCF.png) 0 0 13 0 repeat;
+  -webkit-border-image: url(http://i.imgur.com/pnoMOCF.png) 0 0 13 0 repeat;
+  -o-border-image: url(http://i.imgur.com/pnoMOCF.png) 0 0 13 0 repeat;
+  border-image: url(http://i.imgur.com/pnoMOCF.png) 0 0 13 0 fill repeat;
+}
+article {
+ margin-bottom: 15px;
+}
+.feature {
+  float: center;
+  width:100%;
+  margin-top: 1%;
+}
+.title {
+  font-family: "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 10px;
+  margin-bottom: 5px;
+  margin-top: 5%;
+}
+.postdate {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 100%;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 50;
+  color:#979797;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  float: left;
+  margin-left: 0px;
+}
+.printer{
+  color:#979797;
+  margin-top: 1%;
+  float: right;
+  text-align: right;
+  font-size: 80%;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.measurements{
+
+  margin-top:0px;
+  margin-bottom: 0px;
+  background-image: url("http://i.imgur.com/dD2qQjS.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width:100%;
+  font-family: "Patrick Hand","Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+  font-size:160%;
+  padding-top: 2%;
+
+  /*padding-left: 15px;*/
+  line-height:60%;
+  padding-bottom: 65px;
+
+  /*border-width: 0px 0px 13px 0px;
+  -moz-border-image: url(http://i.imgur.com/pnoMOCF.png) 0 0 13 0 repeat;
+  -webkit-border-image: url(http://i.imgur.com/pnoMOCF.png) 0 0 13 0 repeat;
+  -o-border-image: url(http://i.imgur.com/pnoMOCF.png) 0 0 13 0 repeat;
+  border-image: url(http://i.imgur.com/pnoMOCF.png) 0 0 13 0 fill repeat;*/
+}
+li {
+  margin-bottom: 0px;
+}
+.receipeleft{
+  margin: 0px;
+  list-style: none;
+  float:left;
+  width:100%;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+.receiperight{
+  margin: 0px;
+  list-style: none;
+  float:right;
+  width:100%;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+.author{
+  margin-top: 35px;
+  border-style: solid;
+  border-width: 13px 0px 0px 0px;
+  -moz-border-image: url(http://i.imgur.com/pnoMOCF.png) 13 0 0 0 repeat;
+  -webkit-border-image: url(http://i.imgur.com/pnoMOCF.png) 13 0 0 0 repeat;
+  -o-border-image: url(http://i.imgur.com/pnoMOCF.png) 13 0 0 0 repeat;
+  border-image: url(http://i.imgur.com/pnoMOCF.png) 13 0 0 0 fill repeat;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+
+}
+.profilepic{
+  float: left;
+  margin-right: 15px;
+}
+.name{
+  margin-top: 5px;
+  font-size: 28px;
+
+}
+.description{
+  /*margin-top: -5px;*/
+  font-size: 18px;
+  width: 75%;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.share{
+  background-color: #bc7058;
+  color: white;
+  text-decoration: none;
+  padding: 2%;
+  float: right;
+  text-align: center;
+  width:150px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 5px;
+
+}
+footer{
+  text-align: center;
+  line-height: 15px;
+  border-top: solid thin gray;
+  font-size: 12px;
+  color: #c7c7c7;
+}
+.centerlogo{
+  margin-top: -25px;
+  text-align: center;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+}
+.lineone{
+  margin-bottom: 5px;
+}
