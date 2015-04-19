@@ -1,0 +1,177 @@
+/*---------------Here is my HEADER -----------------*/
+.header{
+   display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+}
+.header__toplogo {
+  float:left;
+  padding-right: 5px;
+  padding-top: 0px;
+
+}
+.header__wordmark {
+  font-family: Yellowtail;
+  font-size: 42px;
+  font-style: bold;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15px;
+  padding-left: 0%;
+  padding-top: 10px;
+  padding-right: 25px;
+  margin-bottom: 10px;
+
+}
+.header__tagline {
+  font-family: Abel,sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 10px;
+  color: #333333;
+
+}
+.header__horizontallist li {
+  display: inline;
+  float:right;
+  padding-right: 2px;
+}
+.header__horizontallist li:nth-child(2)
+{
+  padding-left: 5px;
+}
+.bottomborder{
+  border-style: solid;
+  border-width: 0px 0px 13px 0px;
+  border-image: url(http://i.imgur.com/pnoMOCF.png) 0 0 13 0 fill repeat;
+}
+/*---------------Here is my Title Section-----------------*/
+
+.article__title {
+  font-family: "Oswald",Arial,sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 5px;
+  padding-top: 5%;
+}
+.article__featureimg {
+  width:100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.article__postdate {
+  font-family: Abel,'Arial Narrow', Arial, sans-serif;
+  font-size: 100%;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 50;
+  color:#979797;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  float: left;
+  margin-left: 0px;
+  text-transform: uppercase;
+
+}
+.article__printicon{
+  color:#979797;
+  margin-top: 1%;
+  float: right;
+  text-align: right;
+  font-size: 80%;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+}
+/*---------------Here is my Ingredients section-----------------*/
+
+.article__ingredients{
+  background-image: url("http://i.imgur.com/dD2qQjS.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width:100%;
+  padding-top: 28px;
+  padding-bottom: 4%;
+  margin-bottom: 5%
+}
+
+
+.receipe{
+  font-family: "Patrick Hand",sans-serif;
+  color: #544b40;
+  font-size:25px;
+  line-height: 10px;
+  list-style: none;
+  padding-left: 8%;
+  padding-top: 3%;
+
+}
+.receipeleft {
+  float: left;
+}
+.receiperight{
+  float:right;
+}
+.hangingindent {
+ margin-left: 22px;
+ text-indent: -22px;
+}
+
+/*---------------Here is my Author section-----------------*/
+.author{
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+.profilepic{
+  float: left;
+  padding-right: 10px
+}
+.name{
+  margin-top: 5px;
+  font-size: 26px;
+  margin-bottom: 0px;
+  color: #484847;
+
+}
+.description{
+  margin: 2px;
+  color: #484847;
+  text-indent: 0px;
+}
+.article__sharebutton{
+  background-color: #bc7058;
+  color: white;
+  text-decoration: none;
+  padding: 2%;
+  float: right;
+  text-align: center;
+  width:150px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 5px;
+  text-transform: uppercase;
+
+}
+footer{
+  text-align: center;
+  line-height: 15px;
+  border-top: solid thin gray;
+  font-size: 12px;
+  color: #c7c7c7;
+}
+.centerlogo{
+  margin-top: -25px;
+  text-align: center;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+}
+.lineone{
+  margin-bottom: 5px;
+}
