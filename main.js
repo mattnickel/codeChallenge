@@ -1,5 +1,5 @@
 
-$('span').on('click', function(e){
+$('span').on('click', function(){
   $(this).toggleClass('unchecked');
   $(this).toggleClass('checked');
   });
