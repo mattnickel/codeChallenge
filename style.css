@@ -3,8 +3,8 @@ body {
   padding-top: 3%;
 }
 p {
-font-family: "Calisto MT","Bookman Old Style",Bookman,"Goudy Old Style",Garamond,"Hoefler Text","Bitstream Charter",Georgia,serif;
-color: #333333;
+  font-family:  "Droid Serif", serif;
+  color: #000000;
 }
 .cursive {
   font-family: Yellowtail;
@@ -15,7 +15,6 @@ color: #333333;
   line-height: 15px;
   padding-top: 10px;
   margin-bottom: 10px;
-
 }
 #toplogo {
   float:left;
@@ -24,6 +23,7 @@ color: #333333;
 }
 .tagline {
   font-family: 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
   font-size: 12px;
   font-style: normal;
   font-variant: normal;
@@ -32,13 +32,11 @@ color: #333333;
   margin-top: 0px;
   margin-right: 50px;
   color: #333333;
-
 }
 .horizontallist li {
   display: inline;
   float:right;
   padding: 1px;
-
 }
 header {
   padding-bottom: 20px;
@@ -64,6 +62,7 @@ header {
 }
 .postdate {
   font-family: 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -77,43 +76,42 @@ header {
   font-size: 12px;
   font-family: 'Arial Narrow', Arial, sans-serif;
   margin-top: -30px;
+  text-decoration: none;
 }
 .measurements{
-
   margin-top:35px;
   margin-bottom: 35px;
   background-image: url("http://i.imgur.com/dD2qQjS.png");
   height: 280px;
   width: 100%;
-  font-family: "Patrick Hand","Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+  font-family: "Patrick Hand",sans-serif;
+  color: #746555;
   font-size:22px;
   padding-top: 14px;
-  /*padding-left: 15px;
-  line-height:31px;*/
+  color:
 }
-.receipeleft{
+.recipeleft{
   list-style: none;
   float:left;
   width:500px;
   padding-left: 50px;
   padding-right: 30px;
 }
-.receiperight{
+.reciperight{
   list-style: none;
   float:right;
   margin-top: -202px;
 }
 .author{
   border-style: solid;
-  border-width: 13px 0px 0px 0px;
-  -moz-border-image: url(http://i.imgur.com/pnoMOCF.png) 13 0 0 0 repeat;
-  -webkit-border-image: url(http://i.imgur.com/pnoMOCF.png) 13 0 0 0 repeat;
-  -o-border-image: url(http://i.imgur.com/pnoMOCF.png) 13 0 0 0 repeat;
-  border-image: url(http://i.imgur.com/pnoMOCF.png) 13 0 0 0 fill repeat;
+  border-width: 13px 0px 2px 0px;
+  -moz-border-image: url(http://i.imgur.com/pnoMOCF.png) 13 0 2 0 repeat;
+  -webkit-border-image: url(http://i.imgur.com/pnoMOCF.png) 13 0 2 0 repeat;
+  -o-border-image: url(http://i.imgur.com/pnoMOCF.png) 13 0 2 0 repeat;
+  border-image: url(http://i.imgur.com/pnoMOCF.png) 13 0 2 0 fill repeat;
   padding-top: 30px;
   padding-bottom: 50px;
-  border-bottom: solid thin gray;
-
+  border-bottom: solid thin grey;
 }
 .profilepic{
   float: left;
