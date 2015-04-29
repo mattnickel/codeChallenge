@@ -136,6 +136,7 @@
     flex-basis: 200px;
     padding-right: 10%;
 }
+
 .unchecked {
   background-image: url("http://i.imgur.com/d0QGfE1.png");
 }
@@ -168,7 +169,7 @@
 .article__sharebutton{
   background-color: #bc7058;
   color: white;
-  padding: 5px;
+  padding: 10px;
   float: right;
   text-align: center;
   width:130px;

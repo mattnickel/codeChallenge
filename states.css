@@ -17,6 +17,10 @@
     padding-bottom: 0px;
     padding-top: 0px;
   }
+  .secondone {
+  margin-top: -149px;
+  margin-right: 200px;
+  }
 }
 @media (min-width: 723px) {
   .notepad {
