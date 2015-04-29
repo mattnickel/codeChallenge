@@ -1,57 +1,51 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <title>Delicious. The Best Food Blog on the web</title>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="skeleton.css">
-        <link rel="stylesheet" href="style.css">
-
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yellowtail">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Patrick+Hand">
-        <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body class "container">
+  <head>
+    <title>Delicious. The Best Food Blog on the web</title>
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" type="text/css" href="modules.css">
+    <link rel="stylesheet" type="text/css" href="states.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yellowtail">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Abel'>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Patrick+Hand">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Oswald:700' >
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Droid+Serif' >
+  </head>
+  <body class="container">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-      <header class= "twelve columns" >
-        <section class= "six columns">
-          <img class="toplogo" src="http://i.imgur.com/jbUWd8g.png">
-          <h1 class="cursive">Delicious</h1>
-          <h2 class="tagline">THE BEST FOOD BLOG ON THE WEB</h2>
-        </section>
-        <ul class="horizontallist">
+   <header class="twelve columns bottomborder" >
+      <section class= "six columns">
+        <img class="header__toplogo" src="http://i.imgur.com/jbUWd8g.png">
+        <h1 class="header__wordmark">Delicious</h1>
+        <h2 class="header__tagline">The best food blog on the web</h2>
+      </section>
+      <section class="six columns">
+        <ul class="header__horizontallist">
           <li><img src="http://i.imgur.com/DlvSC4y.png"></li>
           <li><img src="http://i.imgur.com/BP2o2cL.png"></li>
-          <li><img src="http://i.imgur.com/YoCikQC.png"></li>
-          <li><img src="http://i.imgur.com/74oo2p3.png"></li>
+          <li><img src="http://i.imgur.com/5VPEbT0.png"></li>
+          <li><img src="http://i.imgur.com/roymXmp.png"></li>
           <li><img src="http://i.imgur.com/qY6zKyd.png"></li>
           <li><img src="http://i.imgur.com/ISHUIGl.png"></li>
           <li><img src="http://i.imgur.com/eo3fwZZ.png"></li>
           <li><img src="http://i.imgur.com/EVi3j4Z.png"></li>
+
         </ul>
-     </header>
-     <article class = "twelve columns">
+      </section>
+  </header>
+    <article class="twelve columns">
       <section class="twelve columns">
-        <h1 class= "title twelve columns">Chocolate Pizza</h1>
-        <p class="postdate eight columns">POSTED ON <time datetime="2013-12-15">15-DEC-2013 </time> /DESSERTS</p>
-        <a class = "printer four columns" href="www.printablepage.com"><img src="http://i.imgur.com/ncpIAGW.png"> PRINT</a>
+        <h1 class="article__title twelve columns">Chocolate Pizza</h1>
+        <h3 class="article__postdate eight columns">Posted on <time datetime="2013-12-15">15 DEC 2013 </time> /Desserts</h3>
+        <a class="article__printicon four columns" href="www.printablepage.com"><img src="http://i.imgur.com/ncpIAGW.png"> Print</a>
       </section>
 
       <section class="twelve columns">
-        <img class="feature" src="http://i.imgur.com/nKo1IEr.png">
+        <img class="article__featureimg" src="http://i.imgur.com/nKo1IEr.png">
         <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely</p>
 
         <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
@@ -59,44 +53,45 @@
         <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jammixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
       </section>
 
-      <section class="measurements twelve columns">
-        <ul class= "receipeleft six columns">
-          <li><input type="checkbox"> 1 1/2 cups milk</li>
-          <li><input type="checkbox"> 1/2 cup mascarpone</li>
-          <li><input type="checkbox"> 1/2 tsp pink salt</li>
-          <li><input type="checkbox"> 1lb Black Mission Figs</li>
-          <li><input type="checkbox"> 1/2 cup brown sugar</li>
-          <li><input type="checkbox"> 2-4 tbsp water</li>
+      <section class="article__ingredients  twelve columns">
+        <ul class="receipe left five columns">
+          <li><span class="unchecked"></span>1 1/2 cups milk</li>
+          <li><span class="unchecked"></span>1/2 cup mascarpone</li>
+          <li><span class="unchecked"></span>1/2 tsp pink salt</li>
+          <li><span class="unchecked"></span>1 lb Black Mission Figs</li>
+          <li><span class="unchecked"></span>1/2 cup brown sugar</li>
+          <li><span class="unchecked"></span>2-4 tbsp water</li>
         </ul>
-        <ul class= "receiperight six columns">
-          <li><input type="checkbox"> 1 1/2 cups heavy cream</li>
-          <li><input type="checkbox"> 1/2 granulated sugar</li>
-          <li><input type="checkbox"> 2 egg yolks</li>
-          <li><input type="checkbox"> 1 lemon, juiced</li>
-          <li><input type="checkbox"> 2 tbsp butter</li>
-          <li><input type="checkbox"> 1 cup honey roasted pecans, roughly chopped</li>
+        <ul class="receipe right seven columns hangingindent">
+          <li><span class="unchecked"></span>1 1/2 cups heavy cream</li>
+          <li><span class="unchecked"></span>1/2 granulated sugar</li>
+          <li><span class="unchecked"></span>2 egg yolks</li>
+          <li><span class="unchecked"></span>1 lemon, juiced</li>
+          <li><span class="unchecked"></span>2 tbsp butter</li>
+          <li><span class="unchecked"></span>1 cup honey roasted pecans, roughly chopped</li>
         </ul>
       </section>
+      <section class="bottomborder twelve columns"></section>
 
       <section class="author twelve columns">
         <img class="profilepic" src="http://i.imgur.com/Ic3s4A6.png">
         <h2 class="name">Vanessa Stevenson</h2>
         <p class="description two-thirds column">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-        <a class= "share" href="share.com">SHARE RECIPE</a>
+        <a class="article__sharebutton" href="share.com">Share receipe</a>
       </section>
+
      </article>
 
-      <footer class= "twelve columns">
+      <footer class="twelve columns">
         <img class="centerlogo" src="http://i.imgur.com/CnrgRer.png">
         <p class="lineone">Delicious &copy 2013 - All Rights Reserved.</p>
         <p>Proudly published with Ghost.</p>
       </footer>
 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
