@@ -6,44 +6,26 @@
   background-image: url("http://i.imgur.com/ueFLPU3.png");
 }
 /*media queries for screen size*/
-@media (max-width: 550px) {
-  header {
-    padding-bottom: 100px;
-  }
-  .social {
-    text-align: left;
-  }
-}
-  @media (min-width: 551px) {
-  header {
-    padding-bottom: 75px;
-  }
-  .social {
-    text-align: right;
-  }
-}
-@media (max-width: 700px) {
-  .pad {
-    background-image: url("../images/notepad-500px.png");
+@media (max-width: 722px) {
+  .notepad {
+    background-image: url("http://i.imgur.com/oGGck6d.png");
     min-height: 530px;
+    padding-top: 40px;
   }
-  .pad ul {
-    padding-left: 40px;
+  .notepad ul {
+    padding-left: 70px;
+    padding-bottom: 0px;
+    padding-top: 0px;
   }
-  .pad ul:first-child {
-    padding-top: 38px;
+  .secondone {
+  margin-top: -149px;
+  margin-right: 200px;
   }
 }
-@media (min-width: 701px) {
-  .pad {
-    background-image: url("../images/notepad.png");
+@media (min-width: 723px) {
+  .notepad {
+    background-image: url("http://i.imgur.com/dD2qQjS.png");
     height: 310px;
-  }
-  .pad ul {
-    padding-top: 38px;
-  }
-  .pad ul:first-child {
-    padding-left: 60px;
   }
 }
 
